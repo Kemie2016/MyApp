@@ -34,7 +34,7 @@ public class MapsActivity extends FragmentActivity {
     private void addMarker(LatLng place, String title, String snippet) {
         BitmapDescriptor icon =
                 BitmapDescriptorFactory.fromResource(R.drawable.front19);
-
+        //設定自訂icon
         MarkerOptions markerOptions = new MarkerOptions();
         markerOptions.position(place)
                 .title(title)
